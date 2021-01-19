@@ -1,0 +1,113 @@
+* {
+  margin: auto;
+}
+.rectangle {
+  height: 48px;
+  margin-top: 44px;
+  display: flex;
+}
+.back-arrow-icon {
+  margin: 15px 19px 15px 21px;
+}
+.stamp-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stamp {
+  font-family: NotoSansCJKkr;
+  font-size: 15px;
+  line-height: 15px;
+  color: #5c5a5a;
+}
+.stamp-reader {
+  background: #ffffff;
+  border: 1px solid #f4f3f3;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  width: 280px;
+  height: 168px;
+  margin: 35px 40px 29px;
+}
+.stamp-cancel-icon {
+  height: 18px;
+  width: 18px;
+  color: #286140;
+  position: absolute;
+  left: 282px;
+  margin-top: 20px;
+}
+.stamp-fill {
+  margin: 64px 40.5px;
+}
+.stamp-fill img {
+  padding: 1px;
+}
+.stamp-code {
+  margin: 8px 0 44px 42px;
+}
+.stamp-code-color {
+  color: #286140;
+}
+.stamp-code-letter-spacing {
+  letter-spacing: -0.4px;
+}
+.stamp-properties {
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  line-height: 12px;
+}
+.stamp-guide-color {
+  color: #5c5a5a;
+}
+.help-icon {
+  margin-right: 8.9px;
+}
+.usage-history {
+  height: 42px;
+  display: flex;
+  margin-top: 37px;
+}
+.usage-properties {
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  /* text-align: right; */
+  color: #979595;
+  padding: 15px 0px 15px 20px;
+}
+.text-align {
+  text-align: right;
+}
+.flex-display {
+  display: flex;
+}
+.border-top {
+  border-top: 1px solid rgba(233, 231, 231, 0.8);
+}
+.coupon-issuance {
+  padding: 20px 0px 20px 20px;
+  /* height: 76px; */
+}
+.coupon-title {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.2px;
+  color: #333131;
+}
+.coupon-date {
+  padding-top: 10px;
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.2px;
+  color: #979595;
+}
+.coupon-item {
+  display: flex;
+}
