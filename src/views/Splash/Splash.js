@@ -12,9 +12,11 @@ import './Splash.css';
 function Splash() {
   return (
     <>
-      <div className="rectangle">
-        <img className="back-arrow-icon" src={BackArrow} alt="Back-arrow" />
-        <p className="stamp">스탬프</p>
+      <div className="back-arrow">
+        <div className="flex-display">
+          <img className="back-arrow-icon" src={BackArrow} alt="Back-arrow" />
+          <p className="stamp">스탬프</p>
+        </div>
       </div>
       <div className="stamp-box">
         <div className="stamp-reader">
@@ -34,8 +36,10 @@ function Splash() {
           </div>
         </div>
         <div className="stamp-properties stamp-guide-color flex-display ">
-          <img className="help-icon" src={QuestionIcon} alt="Help" />
-          <p>스탬프 이용안내</p>
+          <div className="flex-display stamp-left-margin">
+            <img className="help-icon" src={QuestionIcon} alt="Help" />
+            <p className="help-guide">스탬프 이용안내</p>
+          </div>
         </div>
       </div>
       <div className="usage-history border-top ">
